@@ -50,7 +50,7 @@ void setup()
   //BMX055 初期化
   BMX055_Init();
 
-//SD 初期化
+//SD 初期化hennkou
 Serial.print("Initializing SD card...");
 
   if (!SD.begin(4)) {
